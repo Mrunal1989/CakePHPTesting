@@ -6,3 +6,21 @@
  * and open the template in the editor.
  */
 
+namespace App\Controller;
+
+use App\Controller\Controller;
+
+
+class LoginController extends AppController{
+    public function initialize(){
+        parent::initialize();
+        $this->viewBuilder()->setLayout("login");
+    }
+    public function index(){
+        
+    }
+    
+    public function userLogin(){
+        
+    }
+}
