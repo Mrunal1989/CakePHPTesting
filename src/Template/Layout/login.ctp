@@ -3,17 +3,18 @@
         <title>
             SarhadTime : User Login
         </title>
-        <?= $this->Html->meta('icon') ?>
-
+ <?= $this->fetch('meta') ?>
+        <?= $this->fetch('css') ?>
+        <?= $this->fetch('script') ?>       
+ <?= $this->Html->meta('icon') ?>
+        <?= $this->Html->css('logs.bootstrap.min.css') ?>
         <?= $this->Html->css('login.css') ?>
-        <?= $this->Html->css('bootstrap.min.css') ?>
-          <?= $this->Html->css('logs.bootstrap.min') ?>
+        
+          
         <?= $this->Html->script('jquery.min.js') ?>
         
         
-        <?= $this->fetch('meta') ?>
-        <?= $this->fetch('css') ?>
-        <?= $this->fetch('script') ?>
+       
     </head>
     <body id="body-login">
 	<div class="wrapper">
